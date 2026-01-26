@@ -6,12 +6,15 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Unit Converter | Fast, Free and Easy Unit Conversions",
+  title: "Units Converter | Fast, Free and Easy Unit Conversions",
   description:
     "Convert between different units of measurement including weight, length, temperature, volume, area, and more. Fast, free and easy to use.",
   keywords:
-    "unit converter, conversion calculator, measurement converter, weight converter, length converter, temperature converter",
-    generator: 'v0.app'
+    "unit converter, units converter, conversion calculator, measurement converter, weight converter, length converter, temperature converter",
+  generator: 'v0.app',
+  icons: {
+    icon: '/icon.svg',
+  },
 }
 
 export default function RootLayout({

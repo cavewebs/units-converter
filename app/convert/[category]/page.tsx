@@ -22,13 +22,13 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${category.name} Converter | Unit Converter`,
+    title: `${category.name} Converter | Units Converter`,
     description: `Convert between different ${category.name.toLowerCase()} units including ${category.units
       .slice(0, 3)
       .map((u) => u.name)
       .join(", ")} and more.`,
     openGraph: {
-      title: `${category.name} Converter | Unit Converter`,
+      title: `${category.name} Converter | Units Converter`,
       description: `Convert between different ${category.name.toLowerCase()} units including ${category.units
         .slice(0, 3)
         .map((u) => u.name)
@@ -193,7 +193,7 @@ export default async function CategoryPage({
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Unit Converter</h3>
+              <h3 className="text-xl font-bold mb-4">Units Converter</h3>
               <p>Fast, free and easy unit conversions for any measurement.</p>
             </div>
             <div>
@@ -248,7 +248,7 @@ export default async function CategoryPage({
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center">
-            <p>&copy; {new Date().getFullYear()} Unit Converter. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Units Converter. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -12,7 +12,7 @@ export default function HomePage() {
       <header className="bg-primary text-primary-foreground py-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center space-y-4">
-            <h1 className="text-3xl md:text-5xl font-bold">Unit Converter</h1>
+            <h1 className="text-3xl md:text-5xl font-bold">Units Converter</h1>
             <p className="text-lg md:text-xl max-w-2xl">Fast, free and easy unit conversions for any measurement</p>
             <div className="relative w-full max-w-md mt-4">
               <Input
@@ -46,7 +46,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Unit Converter</h3>
+              <h3 className="text-xl font-bold mb-4">Units Converter</h3>
               <p>Fast, free and easy unit conversions for any measurement.</p>
             </div>
             <div>
@@ -90,7 +90,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center">
-            <p>&copy; {new Date().getFullYear()} Unit Converter. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Units Converter. All rights reserved.</p>
           </div>
         </div>
       </footer>
