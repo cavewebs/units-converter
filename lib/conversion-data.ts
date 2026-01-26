@@ -1342,6 +1342,179 @@ const categories: Category[] = [
     ]
 
   },
+  {
+    slug: "electric-current",
+    name: "Electric Current",
+    description: "Convert between different electric current units like amperes, milliamperes, and more.",
+    detailedDescription: `
+      Electric current is the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
+      
+      The ampere (A) is the SI base unit of electric current. Other common units include milliamperes (mA) and kiloamperes (kA).
+      
+      Electric current conversion is essential in electrical engineering, physics, and electronics.
+    `,
+    units: [
+      {
+        id: "ampere",
+        name: "Ampere",
+        symbol: "A",
+        ratio: 1,
+        about: "The ampere is the SI base unit of electric current. It is named after André-Marie Ampère, one of the main discoverers of electromagnetism."
+      },
+      {
+        id: "milliampere",
+        name: "Milliampere",
+        symbol: "mA",
+        ratio: 0.001,
+        about: "A milliampere is a unit of electric current equal to one thousandth (1/1000) of an ampere. It is commonly used to measure small currents in electronics."
+      },
+      {
+        id: "kiloampere",
+        name: "Kiloampere",
+        symbol: "kA",
+        ratio: 1000,
+        about: "A kiloampere is a unit of electric current equal to 1,000 amperes. It is used in power distribution and large electrical systems."
+      },
+      {
+        id: "microampere",
+        name: "Microampere",
+        symbol: "μA",
+        ratio: 0.000001,
+        about: "A microampere is a unit of electric current equal to one millionth (1/1,000,000) of an ampere."
+      },
+    ]
+  },
+  {
+    slug: "voltage",
+    name: "Voltage",
+    description: "Convert between different voltage units like volts, millivolts, and kilovolts.",
+    detailedDescription: `
+      Voltage, also known as electric pressure or electric tension, is the difference in electric potential between two points.
+      
+      The volt (V) is the SI derived unit for electric potential, electric potential difference, and electromotive force.
+      
+      Voltage conversion is crucial in electrical engineering, electronics, and power distribution.
+    `,
+    units: [
+      {
+        id: "volt",
+        name: "Volt",
+        symbol: "V",
+        ratio: 1,
+        about: "The volt is the SI derived unit of electric potential difference. It is named after the Italian physicist Alessandro Volta."
+      },
+      {
+        id: "millivolt",
+        name: "Millivolt",
+        symbol: "mV",
+        ratio: 0.001,
+        about: "A millivolt is a unit of voltage equal to one thousandth (1/1000) of a volt."
+      },
+      {
+        id: "kilovolt",
+        name: "Kilovolt",
+        symbol: "kV",
+        ratio: 1000,
+        about: "A kilovolt is a unit of voltage equal to 1,000 volts. It is commonly used in power transmission."
+      },
+      {
+        id: "microvolt",
+        name: "Microvolt",
+        symbol: "μV",
+        ratio: 0.000001,
+        about: "A microvolt is a unit of voltage equal to one millionth (1/1,000,000) of a volt."
+      },
+    ]
+  },
+  {
+    slug: "resistance",
+    name: "Resistance",
+    description: "Convert between different electrical resistance units like ohms, kiloohms, and megaohms.",
+    detailedDescription: `
+      Electrical resistance is a measure of the opposition to current flow in an electrical circuit.
+      
+      The ohm (Ω) is the SI derived unit of electrical resistance.
+    `,
+    units: [
+      {
+        id: "ohm",
+        name: "Ohm",
+        symbol: "Ω",
+        ratio: 1,
+        about: "The ohm is the SI derived unit of electrical resistance. It is named after German physicist Georg Simon Ohm."
+      },
+      {
+        id: "kiloohm",
+        name: "Kiloohm",
+        symbol: "kΩ",
+        ratio: 1000,
+        about: "A kiloohm is a unit of electrical resistance equal to 1,000 ohms."
+      },
+      {
+        id: "megaohm",
+        name: "Megaohm",
+        symbol: "MΩ",
+        ratio: 1000000,
+        about: "A megaohm is a unit of electrical resistance equal to 1,000,000 ohms."
+      },
+      {
+        id: "milliohm",
+        name: "Milliohm",
+        symbol: "mΩ",
+        ratio: 0.001,
+        about: "A milliohm is a unit of electrical resistance equal to one thousandth of an ohm. It is often used to measure very low resistance."
+      },
+    ]
+  },
+  {
+    slug: "flow-rate",
+    name: "Flow Rate",
+    description: "Convert between different flow rate units like liters per second, gallons per minute, and more.",
+    detailedDescription: `
+      Volumetric flow rate is the volume of fluid which passes per unit time.
+      
+      Common units include cubic meters per second (m³/s), liters per minute (L/min), and gallons per minute (GPM).
+      
+      Flow rate conversion is important in fluid dynamics, civil engineering, and industrial processes.
+    `,
+    units: [
+      {
+        id: "cubic-meter-per-second",
+        name: "Cubic Meter per Second",
+        symbol: "m³/s",
+        ratio: 1,
+        about: "The cubic meter per second is the SI derived unit of volumetric flow rate."
+      },
+      {
+        id: "liter-per-second",
+        name: "Liter per Second",
+        symbol: "L/s",
+        ratio: 0.001,
+        about: "A liter per second is a metric unit of flow rate equal to one thousandth of a cubic meter per second."
+      },
+      {
+        id: "liter-per-minute",
+        name: "Liter per Minute",
+        symbol: "L/min",
+        ratio: 0.0000166667,
+        about: "A liter per minute is a metric unit of flow rate equal to 1/60 of a liter per second."
+      },
+      {
+        id: "gallon-per-minute",
+        name: "Gallon per Minute (US)",
+        symbol: "GPM",
+        ratio: 0.0000630902,
+        about: "The US gallon per minute is a unit of flow rate commonly used in the United States."
+      },
+      {
+        id: "cubic-foot-per-minute",
+        name: "Cubic Foot per Minute",
+        symbol: "CFM",
+        ratio: 0.000471947,
+        about: "The cubic foot per minute is a unit of flow rate commonly used in the United States, especially for airflow."
+      },
+    ]
+  },
 ]
 
 // Helper functions to access the data
